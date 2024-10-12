@@ -83,7 +83,7 @@ footer {
     width: 100%;
 }
 
-/* Deliberately problematic media query */
+
 @media (max-width: 600px) {
     main {
         padding: 1rem;
