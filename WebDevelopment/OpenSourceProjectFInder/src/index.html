@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Project Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Open Source Project Finder</h1>
+        <nav>
+            <ul>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Find a Project</h2>
+            <form id="search-form">
+                <label for="language">Programming Language:</label>
+                <input type="text" id="language" name="language" placeholder="e.g., JavaScript, Python">
+                <label for="difficulty">Difficulty Level:</label>
+                <select id="difficulty" name="difficulty">
+                    <option value="">Any</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="results">
+            <h2>Search Results</h2>
+            <ul id="projects-list"></ul>
+        </section>
+        <section id="featured">
+            <h2>Featured Projects</h2>
+            <div id="featured-projects"></div>
+        </section>
+        <section id="about">
+            <h2>About This Tool</h2>
+            <p>The Open Source Project Finder helps developers discover exciting projects to contribute to. Whether you're a beginner looking to make your first pull request or an experienced developer seeking new challenges, we've got you covered!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Open Source Project Finder. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
