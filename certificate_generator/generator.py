@@ -29,9 +29,9 @@ def make_cert(name):
     output_path = os.path.join(output_dir, f"{name}_certificate.jpg")
     image_source.save(output_path, "JPEG")
 
-    print(f"Printing certificate for: {name}")
-
-names = ["Vihaan Choube", "Harshit Singh Raushan", "Kushagra Tarun", "Bhavya Nanda", "Arjun Nain", "Dhruv Kunzru", "Arhant Bafna", "Karan Parashar", "Taksh Modasia", "Aryan Mishra", "Priyanshu Choudhary", "Eren Yeager", "Shrivatsa Trivedi", "Dhruv Baberwal"]
+    print(f"Printing certificate 
+          
+names = ["Vihaan Choube", "Vaisakhi Das", "Harshit Singh Raushan", "Kushagra Tarun", "Bhavya Nanda", "Arjun Nain", "Dhruv Kunzru", "Arhant Bafna", "Karan Parashar", "Taksh Modasia", "Aryan Mishra", "Priyanshu Choudhary", "Eren Yeager", "Shrivatsa Trivedi", "Dhruv Baberwal"]
 
 for name in names:
     make_cert(name)
