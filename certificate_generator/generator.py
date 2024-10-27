@@ -31,7 +31,7 @@ def make_cert(name):
 
     print(f"Printing certificate 
           
-names = ["Vihaan Choube", "Vaisakhi Das", "Harshit Singh Raushan", "Kushagra Tarun", "Bhavya Nanda", "Arjun Nain", "Dhruv Kunzru", "Arhant Bafna", "Karan Parashar", "Taksh Modasia", "Aryan Mishra", "Priyanshu Choudhary", "Eren Yeager", "Shrivatsa Trivedi", "Dhruv Baberwal"]
+names = ["Tanish Goindi", "Vihaan Choube", "Vaisakhi Das", "Harshit Singh Raushan", "Kushagra Tarun", "Bhavya Nanda", "Arjun Nain", "Dhruv Kunzru", "Arhant Bafna", "Karan Parashar", "Taksh Modasia", "Aryan Mishra", "Priyanshu Choudhary", "Eren Yeager", "Shrivatsa Trivedi", "Dhruv Baberwal"]
 
 for name in names:
     make_cert(name)
